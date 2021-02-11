@@ -1,0 +1,15 @@
+- se for projeto aberto, não daria pra aproveitar algumas coisas, tipo o jenkinsfile
+- criar os datadorm_piloto e dataform_prod
+- parametrizar os ambiente e branchs
+- fazer o dataform install e dataform init-creds no post actions
+
+
+- template geral (para deploy dataform usando cli) sem o jenkins e parametrizando tudoo!
+  - parametrizar os ambientes pra fazer o environments.json e o dataform_{env}.json
+  - arquivos sh com passos de jenkins
+
+
+- template da anbima
+  - usa o template geral
+  - adiciona as coisas do jenkins
+  - valores padrão com arquivo de configuração
