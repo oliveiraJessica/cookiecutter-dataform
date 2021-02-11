@@ -1,3 +1,8 @@
 {
-    "defaultDatabase":"project-id"
+    "warehouse": "bigquery",
+    "defaultSchema": "staging",
+    "assertionSchema": "assertion",
+    "defaultDatabase":"project-id",
+    "environments": "nome-branch",
+    "enum_folders": ["yes","no"]
 }
