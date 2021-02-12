@@ -3,6 +3,6 @@
     "defaultSchema": "staging",
     "assertionSchema": "assertion",
     "defaultDatabase":"project-id",
-    "environments": "nome-branch",
+    "environments": {"develop":"dev", "piloto":"homolog", "production":"master"},
     "enum_folders": ["yes","no"]
 }
