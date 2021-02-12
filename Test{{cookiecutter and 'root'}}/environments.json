@@ -1,0 +1,19 @@
+{
+    "environments": [
+        {
+            "name": "develop",
+            "configOverride": {},
+            "gitRef": "develop"
+        },
+        {
+            "name": "piloto",
+            "configOverride": {},
+            "gitRef": "homolog"
+        },
+        {
+            "name": "production",
+            "configOverride": {},
+            "gitRef": "master"
+        }
+    ]
+}
