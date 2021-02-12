@@ -1,6 +1,0 @@
-{
-    "warehouse": "{{cookiecutter.warehouse}}",
-    "defaultSchema": "{{cookiecutter.defaultSchema}}",
-    "assertionSchema": "{{cookiecutter.assertionSchema}}",
-    "defaultDatabase": "{{cookiecutter.defaultDatabase}}"
-}

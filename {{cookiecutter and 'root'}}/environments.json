@@ -1,9 +1,19 @@
 {
     "environments": [
-        {% for name, branch in cookiecutter.environments|dictsort %}{
-            "name": "{{name}}",
+        {
+            "name": "develop",
             "configOverride": {},
-            "gitRef": "{{branch}}"
-        }{% if not loop.last %},{% endif %}{% endfor %}
+            "gitRef": "develop"
+        },
+        {
+            "name": "piloto",
+            "configOverride": {},
+            "gitRef": "homolog"
+        },
+        {
+            "name": "production",
+            "configOverride": {},
+            "gitRef": "master"
+        }
     ]
 }
