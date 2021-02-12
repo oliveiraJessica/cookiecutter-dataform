@@ -1,6 +1,6 @@
 #! /usr/bin/env bash
 
-rmdir definitions/
-rmdir includes/
-rm dataform.json || true
-rm environments.json || true
+rm -rf ../definitions/
+rm -rf ../includes/
+rm ../dataform.json || true
+rm ../environments.json || true
