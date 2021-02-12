@@ -1,6 +1,0 @@
-{
-    "warehouse": "bigquery",
-    "defaultSchema": "staging",
-    "assertionSchema": "assertions",
-    "defaultDatabase": "{{cookiecutter.defaultDatabase}}"
-}
