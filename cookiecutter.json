@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "warehouse": "bigquery",
   "defaultSchema": "staging",
   "assertionSchema": "assertion",
@@ -20,12 +19,3 @@
   },
   "enum_folders": ["yes", "no"]
 }
-=======
-    "warehouse": "bigquery",
-    "defaultSchema": "staging",
-    "assertionSchema": "assertion",
-    "defaultDatabase":"project-id",
-    "environments": "nome-branch",
-    "enum_folders": ["yes", "no"]
-}
->>>>>>> develop
