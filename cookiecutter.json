@@ -4,5 +4,5 @@
     "assertionSchema": "assertion",
     "defaultDatabase":"project-id",
     "environments": "nome-branch",
-    "license": ["yes","no"]
+    "enum_folders": ["yes", "no"]
 }
