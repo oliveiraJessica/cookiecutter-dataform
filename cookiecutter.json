@@ -1,4 +1,26 @@
 {
+<<<<<<< HEAD
+  "warehouse": "bigquery",
+  "defaultSchema": "staging",
+  "assertionSchema": "assertion",
+  "defaultDatabase": "project-id",
+  "environments": {
+    "develop": {
+      "branch": "dev",
+      "project": "project-id-dev"
+    },
+    "piloto": {
+      "branch": "homolog",
+      "project": "project-id-plt"
+    },
+    "production": {
+      "branch": "master",
+      "project": "project-id-plt"
+    }
+  },
+  "enum_folders": ["yes", "no"]
+}
+=======
     "warehouse": "bigquery",
     "defaultSchema": "staging",
     "assertionSchema": "assertion",
@@ -6,3 +28,4 @@
     "environments": "nome-branch",
     "enum_folders": ["yes", "no"]
 }
+>>>>>>> develop

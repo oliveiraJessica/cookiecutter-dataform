@@ -1,0 +1,11 @@
+{
+    "environments": [
+        {% for name, details in cookiecutter.environments|dictsort %}{
+            "name": "{{name}}",
+            "configOverride": {
+                "defaultDatabase": "{{details.project}}"
+            },
+            "gitRef": "{{details.branch}}"
+        }{% if not loop.last %},{% endif %}{% endfor %}
+    ]
+}
