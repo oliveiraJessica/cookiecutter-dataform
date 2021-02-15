@@ -13,5 +13,5 @@ TEMPLATE_PATH=~/.cookiecutters
 FOLDER=cookiecutter-dataform
 
 {% for name in cookiecutter.environments.keys() %}
-cp "../${TEMPLATE_PATH}/${FOLDER}/dataform.json" "../${TEMPLATE_PATH}/${FOLDER}/dataform_{{ name }}.json"
+cp "${TEMPLATE_PATH}/${FOLDER}/dataform.json" "../${TEMPLATE_PATH}/${FOLDER}/dataform_{{ name }}.json"
 {% endfor %}
