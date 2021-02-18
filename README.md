@@ -31,31 +31,13 @@ Install the latest Cookiecutter if you haven't installed it yet (this requires C
 
 The project is structured in the main folders:
 
-$ ./tree-md .
-# Project tree
-.
- * [{{coockiecutter and "root"}](./dir2)
-   * [definitions](./dir2/file21.ext)
-     * [{%- if cookiecutter.enum_folders == "yes" -%} 00_{% endif %}source](./dir2/file22.ext)
-     * [{%- if cookiecutter.enum_folders == "yes" -%} 01_{% endif %}staging](./dir2/file22.ext)
-     * [{%- if cookiecutter.enum_folders == "yes" -%} 02_{% endif %}tests](./dir2/file22.ext)
-     * [{%- if cookiecutter.enum_folders == "yes" -%} 03_{% endif %}reports](./dir2/file22.ext)
-   * [includes](./dir2/file23.ext)
-   * [dataform.json](./dir2/file23.ext)
-   * [environments.json](./dir2/file23.ext)
-   * [run.sh](./dir2/file23.ext)
- * [hooks](./dir1)
-   * [post_gen_project.sh](./dir1/file11.ext)
-   * [pre_gen_project.sh](./dir1/file12.ext)
- * [cookiecutter.json](./file_in_root.ext)
- * [README.md](./README.md)
- * [requirements.txt](./requirements.txt)
-
- .
-    ├── {{coockiecutter and "root"}}
+```shell
+    $tree
+    .
+    ├── {{coockiecutter and "root"}}                                                                        
         ├── definitions
-            ├── {%- if cookiecutter.enum_folders == "yes" -%} 00_{% endif %}source
-            ├── {%- if cookiecutter.enum_folders == "yes" -%} 01_{% endif %}staging
+            ├── {%- if cookiecutter.enum_folders == "yes" -%} 00_{% endif %}source                           
+            ├── {%- if cookiecutter.enum_folders == "yes" -%} 01_{% endif %}staging              
             ├── {%- if cookiecutter.enum_folders == "yes" -%} 02_{% endif %}tests
             ├── {%- if cookiecutter.enum_folders == "yes" -%} 03_{% endif %}reports    
         ├── includes      
@@ -69,4 +51,4 @@ $ ./tree-md .
     ├── LICENSE                  
     ├── README.md                   
     ├── requirements.txt                  
-
+```
