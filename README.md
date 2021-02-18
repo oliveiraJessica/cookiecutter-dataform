@@ -50,3 +50,23 @@ $ ./tree-md .
  * [cookiecutter.json](./file_in_root.ext)
  * [README.md](./README.md)
  * [requirements.txt](./requirements.txt)
+
+ .
+    ├── {{coockiecutter and "root"}}
+        ├── definitions
+            ├── {%- if cookiecutter.enum_folders == "yes" -%} 00_{% endif %}source
+            ├── {%- if cookiecutter.enum_folders == "yes" -%} 01_{% endif %}staging
+            ├── {%- if cookiecutter.enum_folders == "yes" -%} 02_{% endif %}tests
+            ├── {%- if cookiecutter.enum_folders == "yes" -%} 03_{% endif %}reports    
+        ├── includes      
+        ├── dataform.json
+        ├── environments.json
+        ├── run.sh        
+    ├── hooks 
+        ├── post_gen_project.sh       
+        ├── pre_gen_project.sh                                 
+    ├── cookiecutter.json   
+    ├── LICENSE                  
+    ├── README.md                   
+    ├── requirements.txt                  
+
