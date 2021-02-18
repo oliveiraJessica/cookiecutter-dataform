@@ -113,7 +113,6 @@ This project generates two outputs one with enums in the folder name and the oth
         ├── dataform_piloto.json
         ├── dataform_production.json
         ├── environments.json
-        ├── run.sh 
     ├── README.md              
 ```
 
@@ -132,6 +131,5 @@ This project generates two outputs one with enums in the folder name and the oth
         ├── dataform_piloto.json
         ├── dataform_production.json
         ├── environments.json
-        ├── run.sh 
     ├── README.md              
 ```
