@@ -2,7 +2,7 @@
   "warehouse": "bigquery",
   "defaultSchema": "staging",
   "assertionSchema": "assertion",
-  "defaultDatabase": "project-id",
+  "defaultDatabase": "project-id-dev",
   "environments": {
     "develop": {
       "branch": "dev",
@@ -12,9 +12,9 @@
       "branch": "homolog",
       "project": "project-id-plt"
     },
-    "production": {
+    "prod": {
       "branch": "master",
-      "project": "project-id-plt"
+      "project": "project-id-prd"
     }
   },
   "enum_folders": ["yes", "no"]
