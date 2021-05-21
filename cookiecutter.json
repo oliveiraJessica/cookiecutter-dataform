@@ -12,7 +12,7 @@
       "branch": "homolog",
       "project": "project-id-plt"
     },
-    "production": {
+    "prod": {
       "branch": "master",
       "project": "project-id-plt"
     }
