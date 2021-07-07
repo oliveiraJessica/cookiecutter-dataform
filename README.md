@@ -1,7 +1,5 @@
 # CookieCutter Template Dataform Projects
 
-[![python](https://img.shields.io/pypi/pyversions/cookiecutter.svg)](https://pypi.org/project/cookiecutter/)
-
 ## Project
 
 This project was developed a create templates in Dataform using the CookieCutter.
