@@ -1,7 +1,5 @@
 # CookieCutter Template Dataform Projects
 
-[![python](https://img.shields.io/pypi/pyversions/cookiecutter.svg)](https://pypi.org/project/cookiecutter/)
-
 ## Project
 
 This project was developed to create templates in Dataform using CookieCutter tool.
@@ -16,7 +14,7 @@ Dataform is an application to manage data in BigQuery, Snowflake, Redshift, and 
 
 ### What's CookieCutter?
 
-A command-line utility that creates projects from cookiecutters (project templates), e.g. creating a Python package project from a Python package project template.
+A command-line utility that creates projects from cookiecutters (project templates).
 
 * Documentation: [https://cookiecutter.readthedocs.io/en/1.7.2/index.html](https://cookiecutter.readthedocs.io/en/1.7.2/index.html)
 
