@@ -5,7 +5,7 @@
   "defaultDatabase": "project-id-dev",
   "environments": {
     "develop": {
-      "branch": "dev",
+      "branch": "develop",
       "project": "project-id-dev"
     },
     "piloto": {
